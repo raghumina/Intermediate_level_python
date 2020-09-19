@@ -2,13 +2,14 @@
 # Local Scope: A variable created inside a function belongs to the local scope of that function,
 # and can only be used inside that function
 
-# global scope: A variable created in the main body of the Python code is a global variable and belongs to the global scope.
+# global scope: A variable created in the main body of the Python code is a global variable and belongs to the global
+# scope.
 #
 # Global variables are available from within any scope, global and local.
 
-# In easy words global variable is a main variable or we can say a variable that i functions or blocks of code can use in
-# a program ant its value will remain consistant
-# whereas a local variable will only present inside a fiunction or block of code and works only in it its presence is local
+# In easy words global variable is a main variable or we can say a variable that i functions or blocks of code can
+# use in a program ant its value will remain consistant whereas a local variable will only present inside a function
+# or block of code and works only in it its presence is local
 
 # for example
 '''
@@ -23,7 +24,7 @@ def num(n):
 
 num("hello world!")
 print(num1)  # takes its value from the global variable
-'''
+
 # inside a function a varible first search value form local variable. if local variable is not present in a function then
 # it searches from global variable if global variable dont have that related variable value then it throws error
 # we can use a global variable inside a function or outside of it but we cant use a local variable outside its block or function
@@ -44,4 +45,35 @@ def change():
 
 print(change())
 
+# another one
+age = 21
+def tom():
+    age = 20
+    def jerry():
+        global age
+        age  = 99
+    #tom()
+    #jerry()
+tom()
+print(age)
 
+
+
+# more examples
+
+def myfunc():
+    m = 20
+    print(m)
+myfunc()
+'''
+# function inside a function nested function
+
+def myfunc():
+    m = 30
+    print(m)
+    def myfunc2():
+        m = 34
+        print(m)
+
+    myfunc2()
+myfunc()
