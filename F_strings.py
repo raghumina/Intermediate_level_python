@@ -18,3 +18,19 @@ cup = " cl"
 a = "hello player {} {} "  # this a good way to change a list not complicated as former example
 b1 = a.format(palyer, cup)
 print(b1)
+
+# we can also do this same program as
+palyer = "Neymar"
+cup = " cl"
+a = "hello player {0} {1} "  # by giving it index positions can use it according to our ease
+b1 = a.format(palyer, cup)
+print(b1)
+
+# f string is like the same above example
+# we can also use functions in it
+# for example
+import datetime
+a = "my class starts at"
+text = b = f"hello {a} {datetime.datetime.now()}"  # we will use f befrore "" to initiate f string
+print(text)
+
