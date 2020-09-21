@@ -27,7 +27,7 @@ import csv
 #csv1 = open("Movie_regression.csv")
 #csv12 = csv1.read()
 #print(csv12)
-
+'''
 import csv
 
 with open('employee.txt') as csv_file:
@@ -41,3 +41,5 @@ with open('employee.txt') as csv_file:
             print(f'\t{row[0]} works in the {row[1]} department, and was born in {row[2]}.')
             line_count += 1
     print(f'Processed {line_count} lines.')
+    
+    '''
