@@ -21,3 +21,11 @@ x = 5
 y = 5
 print(subs(x,y))  # well this is the lambda function or one liner function or anonymous function
 
+# try another example
+
+def list(a):
+    return a[1]
+
+a = [[1,23],[23,444],[32323,1]]
+a.sort(key=lambda x:x[1])
+print(a)
