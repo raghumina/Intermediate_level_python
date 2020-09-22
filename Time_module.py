@@ -15,8 +15,9 @@ print(curremt_time)
 #
 n = 0
 initial_time = time.time()
-while n < 50:
+while n < 10:
     print("Hello world")
+   # time.sleep(1)    # this function is used to sleep or stop time according to give seconds
     n = n + 1
 print("the time taken in the execution of this program is",time.time() - initial_time)
 
@@ -32,5 +33,9 @@ elif initial_time < initial_time2:
     print("while loop is faster")
 else:
     print("both are eqwual ")
+
+
+curremt_time_now = time.asctime(time.localtime())   # to know the current local time
+print(curremt_time_now)
 
 
