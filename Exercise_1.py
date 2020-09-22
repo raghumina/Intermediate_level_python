@@ -42,13 +42,6 @@ import random
 chance = 0
 
 
-def chances():
-    while chance >= 10:
-        print("Uou loose ")
-
-    #  print("You LOOSE")
-
-
 def user_input(user1):
     if user1 == "Stone" and machine_choice == "Stone":
         return "Game tied"
@@ -73,14 +66,19 @@ def user_input(user1):
 
     elif user1 == "Scissor" and machine_choice == "Paper":
         return "User won"
-    
+
     elif user1 == "Scissor" and machine_choice == "Scissor":
         return "Game tied"
-    else:
-        print("Please enter value correctly")
+
+
+# def chances(user_input):
+#    while chance >= 10:
+#        print("Uou loose ")
+#        break
 
 
 user_choice = ["Stone", "Paper", "Scissor"]
 machine_choice = random.choice(user_choice)
 user1 = input("Enter your choice here: Stone, Paper, Scissor: ")
 print(user_input(user1))
+ans = input("Enter Yes or No")
