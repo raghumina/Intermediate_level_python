@@ -21,3 +21,11 @@ for players in list1:
 #for index, name in enumerate(list1):
 #    if i%2 == 0:
 #        print(name)
+
+from enum import Enum
+class Color(Enum):
+    RED = 1,
+    GREEN = 2,
+    BLUE = 3
+
+print(repr(Color.RED))
