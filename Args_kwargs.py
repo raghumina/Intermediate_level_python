@@ -36,3 +36,10 @@ name(*names)
 names.append("kolli")
 name(*names)
 # we can add multiple arguments in a function with *args
+
+
+def numbers_(*args):
+    print(args)
+
+numbers = [22.22,3,3,3,3,3,3,]
+print(*numbers)
