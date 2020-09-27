@@ -10,3 +10,5 @@ for names in list1:
 
 a = " and ".join(list1)
 print(a)
+a1 = ", ".join(list1)
+print(a1)
