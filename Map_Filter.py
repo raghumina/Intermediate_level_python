@@ -32,6 +32,9 @@ for i in range(5):
 
 # filter function
 # it filter the list or other data types according to our choice and needs
+# The filter() method filters the given sequence with the help of a function
+# that tests each element in the sequence to be true or not.
+
 number = [1,2,3,4,5,6,7,8,9,0,10]
 def is_greater(number):
   return number>5
