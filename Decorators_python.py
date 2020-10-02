@@ -21,3 +21,4 @@ def result(func):
 
 result(print)
 
+def decoretor_1(func1):
