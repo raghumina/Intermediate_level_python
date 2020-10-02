@@ -15,7 +15,7 @@ print(list(x))
 list1 = [2,2,2,2,2,2,2,2,2,2]
 square = list(map(lambda x: x*x, list1))
 print(square)
-'''
+
 # lets do it with another way
 
 def square(a):
@@ -28,6 +28,19 @@ num = [square, cube]
 for i in range(5):
   val = list(map(lambda x:x(i), num))
   print(val)
+'''
+
+# filter function
+# it filter the list or other data types according to our choice and needs
+number = [1,2,3,4,5,6,7,8,9,0,10]
+def is_greater(number):
+  return number>5
+
+filter_1 = list(filter(is_greater, number))
+print(filter_1)
+
+
+
 
 
 
