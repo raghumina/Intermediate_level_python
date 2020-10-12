@@ -40,7 +40,7 @@ print(tom.standard)
 #
 #
 class Employee:
-    status = "alive"      # this is like global variable for all the objects in a class 
+    status = "alive"      # this is like global variable for all the objects in a class
     pass
 
 
@@ -59,3 +59,5 @@ employee2.power_level = 1200
 employee2.fav_move = ["rasengen", "shadowclone", "rasengen"]
 
 print(employee2.status)
+
+# or we can change the  agloba variable for a specific class like
