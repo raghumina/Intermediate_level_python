@@ -6,7 +6,7 @@
 # Now the question arises, how do you do that?
 
 # Now lets create a class
-
+'''
 class student :
 
 
@@ -15,3 +15,20 @@ class student :
 
 obj = student()
 print(obj.func())
+'''
+
+# In easy words class is a template
+# Objects are the instances of the classes
+# OOPs follows the concepts of DRY that is do not repeat
+
+class Student():
+    pass
+
+tom = Student()
+
+tom.name = "Tom"
+tom.sec = "A"
+tom.standard = 6
+tom.roll_no = 22
+
+print(tom.standard)
