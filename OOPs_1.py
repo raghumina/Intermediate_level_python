@@ -32,3 +32,27 @@ tom.standard = 6
 tom.roll_no = 22
 
 print(tom.standard)
+
+
+# Lets create another class
+#
+#
+class Employee:
+    pass
+
+employee1 = Employee
+employee1.name = "Sasuke"
+employee1.rank = "genin"
+employee1.kills = 100
+employee1.power_level = 1000
+employee1.fav_move = ["chidori","susano","fireball"]
+
+employee2 = Employee
+employee2.name = "Naruto"
+employee2.rank = "genin"
+employee2.kills = 0
+employee2.power_level = 1200
+employee2.fav_move = ["rasengen","shadowclone","rasengen"]
+
+print(employee2)
+
