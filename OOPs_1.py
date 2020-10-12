@@ -17,12 +17,14 @@ obj = student()
 print(obj.func())
 '''
 
+
 # In easy words class is a template
 # Objects are the instances of the classes
 # OOPs follows the concepts of DRY that is do not repeat
 
 class Student():
     pass
+
 
 tom = Student()
 
@@ -38,21 +40,22 @@ print(tom.standard)
 #
 #
 class Employee:
+    status = "alive"      # this is like global variable for all the objects in a class 
     pass
 
-employee1 = Employee
+
+employee1 = Employee  # these are the objects
 employee1.name = "Sasuke"
 employee1.rank = "genin"
 employee1.kills = 100
 employee1.power_level = 1000
-employee1.fav_move = ["chidori","susano","fireball"]
+employee1.fav_move = ["chidori", "susano", "fireball"]
 
 employee2 = Employee
 employee2.name = "Naruto"
 employee2.rank = "genin"
 employee2.kills = 0
 employee2.power_level = 1200
-employee2.fav_move = ["rasengen","shadowclone","rasengen"]
+employee2.fav_move = ["rasengen", "shadowclone", "rasengen"]
 
-print(employee2)
-
+print(employee2.status)
