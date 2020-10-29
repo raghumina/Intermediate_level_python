@@ -4,7 +4,7 @@
 #
 # This is also called metaprogramming because a part of the program tries to modify another part of the program
 # at compile time.
-
+'''
 def function_1():
     print("hello world")
 
@@ -22,3 +22,24 @@ def result(func):
 result(print)
 
 #def decoretor_1(func1):
+'''
+b = [11,13,15,17,19,21]
+print(b[::2])
+
+d = {0: 'a', 1: 'b', 2: 'c'}
+for x in d.keys():
+    print(d[x])
+
+def addItem(listParam):
+    listParam += [1]
+
+mylist = [1, 2, 3, 4]
+addItem(mylist)
+print(len(mylist))
+
+veggies = ['carrot', 'broccoli', 'potato', 'asparagus']
+veggies.insert(veggies.index('broccoli'), 'celery')
+print(veggies)
+
+file1 = open("c:\\employee.txt","r")
+print(file1)
