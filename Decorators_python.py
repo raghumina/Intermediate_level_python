@@ -25,6 +25,16 @@ result(print)
 
 #def decoretor_1(func1):
 '''
+
+def greeting(name):
+  print("Hello, " + name)
+
+person1 = {
+  "name": "John",
+  "age": 36,
+  "country": "Norway"
+}
+
 b = [11,13,15,17,19,21]
 print(b[::2])
 
