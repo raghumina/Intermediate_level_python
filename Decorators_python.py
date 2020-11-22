@@ -108,3 +108,19 @@ class Person:
 
 p1 = Person("John", 36)
 p1.myfunc()
+
+
+
+def greeting(name):
+  print("Hello, " + name)
+
+person1 = {
+  "name": "John",
+  "age": 36,
+  "country": "Norway"
+}
+
+
+from mymodule import person1
+
+print (person1["age"])
