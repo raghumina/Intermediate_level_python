@@ -110,21 +110,19 @@ p1 = Person("John", 36)
 p1.myfunc()
 
 
-
 def greeting(name):
-  print("Hello, " + name)
+    print("Hello, " + name)
+
 
 person1 = {
-  "name": "John",
-  "age": 36,
-  "country": "Norway"
+    "name": "John",
+    "age": 36,
+    "country": "Norway"
 }
-
 
 from mymodule import person1
 
-print (person1["age"])
-
+print(person1["age"])
 
 import numpy as np
 
@@ -135,11 +133,11 @@ filter_arr = []
 
 # go through each element in arr
 for element in arr:
-  # if the element is completely divisble by 2, set the value to True, otherwise False
-  if element % 2 == 0:
-    filter_arr.append(True)
-  else:
-    filter_arr.append(False)
+    # if the element is completely divisble by 2, set the value to True, otherwise False
+    if element % 2 == 0:
+        filter_arr.append(True)
+    else:
+        filter_arr.append(False)
 
 newarr = arr[filter_arr]
 
@@ -166,8 +164,6 @@ ypoints = np.array([0, 250])
 plt.plot(xpoints, ypoints)
 plt.show()
 
-
-
 import numpy as np
 
 arr = np.array([41, 42, 43, 44])
@@ -175,37 +171,20 @@ arr = np.array([41, 42, 43, 44])
 # Create an empty list
 
 
-
-
-
-
-
-
 filter_arr = []
 
 # go through each element in arr
 for element in arr:
-  # if the element is higher than 42, set the value to True, otherwise False:
-  if element > 42:
-    filter_arr.append(True)
-  else:
-    filter_arr.append(False)
+    # if the element is higher than 42, set the value to True, otherwise False:
+    if element > 42:
+        filter_arr.append(True)
+    else:
+        filter_arr.append(False)
 
 newarr = arr[filter_arr]
 
 print(filter_arr)
 print(newarr)
-
-
-
-
-
-
-
-
-
-
-
 
 import numpy as np
 
