@@ -174,9 +174,12 @@ arr = np.array([6, 7, 8, 9])
 x = np.searchsorted(arr, 7, side='right')
 
 print(x)
+
+
 # Create an empty list
 def myfunc(n):
-  return lambda a : a * n
+    return lambda a: a * n
+
 
 mydoubler = myfunc(2)
 mytripler = myfunc(3)
@@ -193,6 +196,15 @@ for element in arr:
         filter_arr.append(True)
     else:
         filter_arr.append(False)
+
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+x = arr.view()
+arr[0] = 42
+
+print(arr)
+print(x)
 
 newarr = arr[filter_arr]
 
