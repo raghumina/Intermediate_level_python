@@ -220,3 +220,13 @@ arr2 = np.array([4, 5, 6])
 arr = np.dstack((arr1, arr2))
 
 print(arr)
+
+import numpy as np
+
+arr = np.array([1.1, 2.1, 3.1])
+
+newarr = arr.astype(int)
+
+print(newarr)
+print(newarr.dtype)
+
