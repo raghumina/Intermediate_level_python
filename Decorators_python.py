@@ -223,10 +223,18 @@ print(arr)
 
 import numpy as np
 
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
+
+for x in arr:
+    for y in x:
+        for z in y:
+            print(z)
+
+import numpy as np
+
 arr = np.array([1.1, 2.1, 3.1])
 
 newarr = arr.astype(int)
 
 print(newarr)
 print(newarr.dtype)
-
