@@ -239,8 +239,6 @@ newarr = arr.astype(int)
 print(newarr)
 print(newarr.dtype)
 
-
-
 import numpy as np
 
 arr = np.array([41, 42, 43, 44])
@@ -250,26 +248,28 @@ filter_arr = []
 
 # go through each element in arr
 for element in arr:
-  # if the element is higher than 42, set the value to True, otherwise False:
-  if element > 42:
-    filter_arr.append(True)
-  else:
-    filter_arr.append(False)
+    # if the element is higher than 42, set the value to True, otherwise False:
+    if element > 42:
+        filter_arr.append(True)
+    else:
+        filter_arr.append(False)
 
 newarr = arr[filter_arr]
 
 print(filter_arr)
 print(newarr)
 
+
 class Person:
-  def __init__(self, fname, lname):
-    self.firstname = fname
-    self.lastname = lname
+    def __init__(self, fname, lname):
+        self.firstname = fname
+        self.lastname = lname
 
-  def printname(self):
-    print(self.firstname, self.lastname)
+    def printname(self):
+        print(self.firstname, self.lastname)
 
-#Use the Person class to create an object, and then execute the printname method:
+
+# Use the Person class to create an object, and then execute the printname method:
 
 x = Person("John", "Doe")
 x.printname()
