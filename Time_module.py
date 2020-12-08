@@ -3,6 +3,7 @@
 # The function time. time() returns the current system time in ticks since 12:00am, January 1, 1970(epoch).
 
 import time
+
 curremt_time = time.time()
 
 print(curremt_time)
@@ -17,9 +18,9 @@ n = 0
 initial_time = time.time()
 while n < 10:
     print("Hello world")
-   # time.sleep(1)    # this function is used to sleep or stop time according to give seconds
+    # time.sleep(1)    # this function is used to sleep or stop time according to give seconds
     n = n + 1
-print("the time taken in the execution of this program is",time.time() - initial_time)
+print("the time taken in the execution of this program is", time.time() - initial_time)
 
 # now lets check the same condition on for loop
 initial_time2 = time.time()
@@ -34,8 +35,5 @@ elif initial_time < initial_time2:
 else:
     print("both are eqwual ")
 
-
-curremt_time_now = time.asctime(time.localtime())   # to know the current local time
+curremt_time_now = time.asctime(time.localtime())  # to know the current local time
 print(curremt_time_now)
-
-
