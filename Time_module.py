@@ -12,7 +12,13 @@ print(curremt_time)
 # or in many other ways
 
 # lets compare time of two programs
+import numpy as np
+from scipy.stats import skew, kurtosis
 
+v = np.random.normal(size=100)
+
+print(skew(v))
+print(kurtosis(v))
 #
 n = 0
 initial_time = time.time()
