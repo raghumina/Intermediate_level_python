@@ -19,6 +19,8 @@ v = np.random.normal(size=100)
 
 print(skew(v))
 print(kurtosis(v))
+
+
 #
 
 
@@ -89,8 +91,6 @@ print(std.getName(), std.isStudent())
 # An Object of Student
 std = Student("Shivam")
 print(std.getName(), std.isStudent())
-
-
 
 n = 0
 initial_time = time.time()
