@@ -2,7 +2,7 @@
 # generally join function is used in list set tuples when we need to join the strings or other data type
 # for example
 
-list1  = ["tom","cruz","hanary","cavill","johnny","deep"]
+list1 = ["tom", "cruz", "hanary", "cavill", "johnny", "deep"]
 for names in list1:
     print(names)
 
