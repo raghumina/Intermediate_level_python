@@ -101,6 +101,9 @@ class Base:
 
 # Creating a derived class
 class Derived(Base):
+
+
+    
     def __init__(self):
         # Calling constructor of
         # Base class
