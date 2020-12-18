@@ -132,28 +132,6 @@ class Base:
         # private member of base class
         # is called inside derived class
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         self.__c = "GeeksforGeeks"
 
 
