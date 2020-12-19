@@ -65,6 +65,8 @@ class Base:
         self._a = 2
 
 
+
+
 # Creating a derived class
 class Derived(Base):
     def __init__(self):
@@ -103,6 +105,7 @@ class Base:
         brightness_4
 
         # Python program to
+
         # demonstrate private members
 
         # Creating a Base class
@@ -111,7 +114,8 @@ class Base:
                 self.a = "GeeksforGeeks"
                 self.__c = "GeeksforGeeks"
 
-        # Creating a derived class
+        # Creating a derived class]
+
         class Derived(Base):
             def __init__(self):
                 # Calling constructor of
