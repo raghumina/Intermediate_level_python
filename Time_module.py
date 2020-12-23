@@ -64,6 +64,31 @@ class Base:
     # Creating Test class dynamically using
 
 
+# Python program to illustrate destructor
+
+class Employee:
+
+    # Initializing
+    def __init__(self):
+        print('Employee created')
+
+        # Calling destructor
+
+    def __del__(self):
+        print("Destructor called")
+
+
+def Create_obj():
+    print('Making Object...')
+    obj = Employee()
+    print('function end...')
+    return obj
+
+
+print('Calling Create_obj() function...')
+obj = Create_obj()
+print('Program End...')
+
 # type() method directly
 Test = type('Test', (Base,), dict(x="atul", my_method=test_method))
 
