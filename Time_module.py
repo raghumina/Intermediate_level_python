@@ -90,6 +90,14 @@ class Derived(Base):
         print(self.__c)
 
 
+# initialize the amount variable
+marks = 10000
+
+# perform division with 0
+a = marks / 0
+print(a)
+
+
 # Driver code
 obj1 = Base()
 print(obj1.a)
