@@ -97,7 +97,6 @@ marks = 10000
 a = marks / 0
 print(a)
 
-
 # Driver code
 obj1 = Base()
 print(obj1.a)
@@ -161,6 +160,8 @@ Rodger = Dog()
 # and method through objects
 print(Rodger.attr1)
 Rodger.fun()
+
+
 #
 
 
@@ -235,6 +236,7 @@ obj_spr.flight()
 
 obj_ost.intro()
 obj_ost.flight()
+
 
 # Creating a derived class
 class Derived(Base):
