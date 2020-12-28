@@ -121,6 +121,7 @@ except(ZeroDivisionError, NameError):
     print
     "\nError Occurred and Handled"
 
+
 # Uncommenting print(obj1.c) will
 # raise an AttributeError
 
