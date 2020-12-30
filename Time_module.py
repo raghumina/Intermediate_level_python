@@ -130,7 +130,9 @@ def shout(text):
 
 def whisper(text):
     return text.lower()
-
+n = int(input())
+k = int(input())
+print n,"
 
 def greet(func):
     # storing the function in a variable
