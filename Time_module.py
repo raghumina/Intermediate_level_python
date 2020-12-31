@@ -130,9 +130,13 @@ def shout(text):
 
 def whisper(text):
     return text.lower()
+
+
 n = int(input())
 k = int(input())
-print n,"
+print
+n, "
+
 
 def greet(func):
     # storing the function in a variable
@@ -143,6 +147,8 @@ def greet(func):
 
 greet(shout)
 greet(whisper)
+
+
 # Uncommenting print(obj1.c) will
 # raise an AttributeError
 
