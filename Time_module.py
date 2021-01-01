@@ -152,6 +152,7 @@ greet(whisper)
 # Uncommenting print(obj1.c) will
 # raise an AttributeError
 
+
 # Uncommenting obj2 = Derived() will
 # also raise an AtrributeError as
 # private member of base class
@@ -160,31 +161,23 @@ greet(whisper)
 # Python program to illustrate destructor
 
 class Employee:
-
     # Initializing
     def __init__(self):
         print('Employee created')
-
         # Calling destructor
-
     def __del__(self):
         print("Destructor called")
-
-
 def Create_obj():
     print('Making Object...')
     obj = Employee()
     print('function end...')
     return obj
-
-
 print('Calling Create_obj() function...')
 obj = Create_obj()
 print('Program End...')
 
 # type() method directly
 Test = type('Test', (Base,), dict(x="atul", my_method=test_method))
-
 # Print type of Test
 print("Type of Test class: ", type(Test))
 
@@ -218,22 +211,15 @@ Rodger.fun()
 
 # Base class or Parent class
 class Child:
-
     # Constructor
     def __init__(self, name):
         self.name = name
-
         # To get name
-
     def getName(self):
         return self.name
-
         # To check if this person is student
-
     def isStudent(self):
         return False
-
-
 # Derived class or Child class
 class Student(Child):
 
