@@ -165,13 +165,18 @@ class Employee:
     def __init__(self):
         print('Employee created')
         # Calling destructor
+
     def __del__(self):
         print("Destructor called")
+
+
 def Create_obj():
     print('Making Object...')
     obj = Employee()
     print('function end...')
     return obj
+
+
 print('Calling Create_obj() function...')
 obj = Create_obj()
 print('Program End...')
@@ -215,11 +220,15 @@ class Child:
     def __init__(self, name):
         self.name = name
         # To get name
+
     def getName(self):
         return self.name
         # To check if this person is student
+
     def isStudent(self):
         return False
+
+
 # Derived class or Child class
 class Student(Child):
 
