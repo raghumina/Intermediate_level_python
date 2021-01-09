@@ -83,6 +83,8 @@ regex = '\d+'
 
 match = re.findall(regex, string)
 print(match)
+
+
 # Python program to
 # demonstrate private members
 
@@ -365,6 +367,8 @@ ans = _sum(arr)
 
 # display sum
 print('Sum of the array is ', ans)
+
+
 # Python program to
 # demonstrate protected members
 
