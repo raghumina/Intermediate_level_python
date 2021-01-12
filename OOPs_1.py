@@ -61,3 +61,7 @@ employee2.fav_move = ["rasengen", "shadowclone", "rasengen"]
 print(employee2.status)
 
 # or we can change the  agloba variable for a specific class like
+
+
+
+
