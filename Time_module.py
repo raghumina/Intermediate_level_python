@@ -597,3 +597,31 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# A Python program to demonstrate working of key
+# value change in OrderedDict
+from collections import OrderedDict
+
+print("Before:\n")
+od = OrderedDict()
+od['a'] = 1
+od['b'] = 2
+od['c'] = 3
+od['d'] = 4
+for key, value in od.items():
+    print(key, value)
+
+print("\nAfter:\n")
+od['c'] = 5
+for key, value in od.items():
+    print(key, value)
+
+# An example program where different list items are
+# counted using counter
+from collections import Counter
+
+# Create a list
+z = ['blue', 'red', 'blue', 'yellow', 'blue', 'red']
+
+# Count distinct elements and print Counter aboject
+print(Counter(z))
